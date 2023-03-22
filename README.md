@@ -5,6 +5,7 @@
 - [Getting Started ](#getting-started-)
 	- [Installing](#installing)
 - [Usage ](#usage-)
+- [Acknowledgements](#acknowledgements)
 
 ## About <a name = "about"></a>
 
@@ -37,3 +38,7 @@ The response will be a JSON object with the following fields:
 - `size` - The size of the file in bytes
 
 **Please note that files are stored in memory on the server and are not persisted!**
+
+## Acknowledgements
+
+Special thanks to [FreeCodeCamp](https://www.freecodecamp.org/) for the challenge.
