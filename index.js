@@ -13,6 +13,6 @@ app.use(express.static("./public"));
 
 const PORT = process.env.PORT || 3000;
 
-app.post("/", upload.single("upfile"), getFileMetadata);
+app.post("/api/fileanalyse", upload.single("upfile"), getFileMetadata);
 
 app.listen(PORT, console.log(`Listening on port ${PORT}...`));
